@@ -1,0 +1,70 @@
+.navbar {
+    width: 1200px;
+    background-color: rgb(217, 31, 31);
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+    height: 100px;
+    margin-top: 50px;
+}
+
+.img-container {
+    padding-left: 80px;
+}
+
+img {
+    margin-top: 6px;
+    margin-bottom: 0px;
+    background-color: aliceblue;
+    border-radius: 50px;
+    width: 90px; 
+    height: 90px;
+}
+.nav{
+    display: flex;
+    color: white;
+    margin-left: 200px;
+}
+.nav h3{
+    padding: 50px;
+    padding-left: 60px;
+    cursor: pointer;
+}
+.select {
+    background-color: rgb(217, 31, 31);
+    color: aliceblue;
+    border: none;
+    border-radius: 0;
+    height: 50px; 
+    padding: 5px 10px;
+    font-size: 18px;
+    font-weight: 900;
+    margin-top: 60px;
+
+    
+    outline: none; 
+  }
+  .contact-info {
+    position: absolute;
+    top: 150px; 
+    right: 590px;
+    background-color: rgb(217, 31, 31);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 220px;
+    color: aliceblue;
+    z-index: 100;
+  }
+  .about-info {
+    position: absolute;
+    top: 150px; 
+    right: 350px;
+    background-color: rgb(217, 31, 31);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 220px;
+    color: aliceblue;
+    z-index: 100;
+  }

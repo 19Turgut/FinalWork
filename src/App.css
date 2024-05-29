@@ -1,0 +1,28 @@
+body, html, #root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center; 
+  background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(176, 60, 49, 1) 50%, rgba(255, 255, 255, 1) 100%);
+}
+
+.container {
+  width: 1200px; 
+  display: flex;
+  flex-direction: column; 
+}
+
+.header {
+  width: 100%; 
+  background-color: #eaeaea;
+  display: flex;
+  justify-content: center;
+  
+}
+
+img {
+  border-radius: 50px;
+  width: 100px; 
+  height: 100px;
+}

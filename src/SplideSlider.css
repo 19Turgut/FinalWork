@@ -1,0 +1,42 @@
+.splide-container {
+    width: 100%;
+    margin: auto;
+    position: relative;
+    margin-top: 0px ;
+}
+
+.splide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    overflow: hidden; 
+}
+
+.splide__slide img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 10px;
+}
+
+
+.splide__arrow {
+    position: absolute; 
+    top: 50%; 
+    transform: translateY(-50%); 
+    background-color: rgba(255, 255, 255, 0.7); 
+    color: #333; 
+    font-size: 24px; 
+    border-radius: 50%; 
+    width: 40px; 
+    height: 40px; 
+    line-height: 40px; 
+}
+
+.splide__arrow--prev {
+    left: 10px; 
+}
+
+.splide__arrow--next {
+    right: 10px; 
+}
